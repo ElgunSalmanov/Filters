@@ -1,0 +1,46 @@
+@import "./reset";
+
+.filters {
+  padding: 30px;
+
+  &__login {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.3rem;
+    margin-bottom: 2rem;
+
+    &-content {
+      font-size: 14px;
+    }
+
+    &-button {
+      width: 10rem;
+      height: 2.5rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      background: transparent;
+      border: 2px solid #d4d4d4;
+      color: #e01111;
+      cursor: pointer;
+    }
+  }
+
+  .properties {
+    display: flex;
+    column-gap: 7px;
+    margin-bottom: 2rem;
+
+    &__button {
+      width: 4rem;
+      height: 1.2rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      background: #e01111;
+      border: none;
+      color: #fff;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-top: 70px;
+    }
+  }
+}

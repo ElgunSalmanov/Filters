@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.filters {
+  padding: 30px;
+}
+.filters__login {
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.3rem;
+  margin-bottom: 2rem;
+}
+.filters__login-content {
+  font-size: 14px;
+}
+.filters__login-button {
+  width: 10rem;
+  height: 2.5rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: transparent;
+  border: 2px solid #d4d4d4;
+  color: #e01111;
+  cursor: pointer;
+}
+.filters .properties {
+  display: flex;
+  -moz-column-gap: 7px;
+       column-gap: 7px;
+  margin-bottom: 2rem;
+}
+.filters .properties__button {
+  width: 4rem;
+  height: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  background: #e01111;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 70px;
+}/*# sourceMappingURL=index2.css.map */

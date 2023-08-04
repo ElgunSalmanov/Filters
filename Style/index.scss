@@ -1,0 +1,22 @@
+@import "./reset";
+
+.opacity {
+  opacity: 0.4;
+}
+
+.filter {
+  display: flex;
+  padding: 30px 30px;
+  justify-content: space-around;
+}
+
+.more {
+  color: red;
+  margin-left: 1rem;
+  font-size: 14px;
+}
+
+.text {
+  text-transform: uppercase;
+  margin-bottom: 1rem;
+}
